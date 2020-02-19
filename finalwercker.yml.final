@@ -84,7 +84,7 @@ deploy-to-kubernetes:
         token: $OKE_TOKEN
         insecure-skip-tls-verify: true
         command: rollout status deployment/cloudnativeapp
-
+ 
 push:
   steps:
     - internal/docker-push:
